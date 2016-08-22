@@ -1,0 +1,86 @@
+<div class="feelpopup">
+    <div class="blk2">
+        <label for="temp">Температура</label>
+        <select id="temp">
+            <option value="36">меньше 36</option>
+            <option value="36.1">36.1</option>
+            <option value="36.2">36.2</option>
+            <option value="36.3">36.3</option>
+            <option value="36.4">36.4</option>
+            <option value="36.5">36.5</option>
+            <option value="36.6" selected>36.6</option>
+            <option value="36.7">36.7</option>
+            <option value="36.8">36.8</option>
+            <option value="36.9">36.9</option>
+            <option value="37">37</option>
+            <option value="37.1">37.1</option>
+            <option value="37.2">37.2</option>
+            <option value="37.3">37.3</option>
+            <option value="37.4">37.4</option>
+            <option value="37.5">37.5</option>
+            <option value="37.6">37.6</option>
+            <option value="37.7">37.7</option>
+            <option value="37.8">37.8</option>
+            <option value="37.9">37.9</option>
+            <option value="38">38</option>
+            <option value="38.1">38.1</option>
+            <option value="38.2">38.2</option>
+            <option value="38.3">38.3</option>
+            <option value="38.4">38.4</option>
+            <option value="38.5">38.5</option>
+            <option value="38.6">38.6</option>
+            <option value="38.7">38.7</option>
+            <option value="38.8">38.8</option>
+            <option value="38.9">38.9</option>
+            <option value="39">39</option>
+            <option value="39.1">39.1</option>
+            <option value="39.2">39.2</option>
+            <option value="39.3">39.3</option>
+            <option value="39.4">39.4</option>
+            <option value="39.5">39.5</option>
+            <option value="39.6">39.6</option>
+            <option value="39.7">39.7</option>
+            <option value="39.8">39.8</option>
+            <option value="39.9">39.9</option>
+            <option value="40">больше 40</option>
+        </select>
+    </div>
+    <div class="blk2">
+        <label for="myapp">Субьективная оценка</label>
+        <select id="myapp">
+            <option value="5">Отлично</option>
+            <option value="4">Хорошо</option>
+            <option value="3" selected>Норма</option>
+            <option value="2">Плохо</option>
+            <option value="1">Ужасно</option>
+            <option value="0">Критическое</option>
+        </select>
+    </div>
+    <div class="blk2">
+        <label for="sleeps">Лег спать</label>
+        <input type="time" id="sleeps" >
+    </div>
+    <div class="blk2">
+        <label for="sleepw">Поднялся</label>
+        <input type="time" id="sleepw" >
+    </div>
+
+</div>
+<style>
+    .blk input,.blk select {
+        display: block;
+    }
+    .blk2 input{
+        display: block;
+    }
+    .blk{
+        margin: 10px;
+        width: 100%;
+        clear: both;
+    }
+    .blk2{
+        margin: 10px;
+        float: left;
+        width: 45%;
+    }
+</style>
